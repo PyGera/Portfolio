@@ -51,6 +51,7 @@ function Landing() {
         <Social social="facebook" icon="fab fa-facebook" link="https://www.facebook.com/federico.gerardi.77" />
         <Social social="twitter" icon="fab fa-twitter" link="https://twitter.com/_gieri_" />
         <Social social="instagram" icon="fab fa-instagram" link="https://www.instagram.com/federicogerardi.py/" />
+        <Social social="linkedin" icon="fab fa-linkedin" link="https://www.linkedin.com/in/federico-gerardi-81407a1a1/" />
         <Social social="telegram" icon="fab fa-telegram" link="https://t.me/PyGera" />
         <Social social="github" icon="fab fa-github" link="https://github.com/PyGera" />
       </div>

@@ -56,6 +56,10 @@ i:active {
     -webkit-text-fill-color: transparent;
 }
 
+.linkedin {
+    color: #0073b1;
+}
+
 .telegram {
     color: #5682a3;
 }
