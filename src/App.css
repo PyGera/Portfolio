@@ -160,3 +160,17 @@ i:active {
     font-size: 1.6rem;
     font-weight: bold;
 }
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.disappear {
+    animation: ease-out disappear .2s;
+}

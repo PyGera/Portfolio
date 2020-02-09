@@ -42,6 +42,7 @@ function Social(props) {
 }
 
 function gotoProjects() {
+
     ReactDOM.render(<Projects />, document.getElementById("root"))
 }
 
@@ -53,7 +54,7 @@ function gotoLanding() {
 
 function Landing() {
   return (
-      <div className="windows">
+      <div id="landing" className="windows">
         <ProfileImg />
         <Name />
         <Profession />
