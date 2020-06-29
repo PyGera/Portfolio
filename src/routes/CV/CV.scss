@@ -1,0 +1,50 @@
+.windows {
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.freccia {
+    font-size: 1.5rem;
+    position: relative;
+    right: 17vh;
+}
+
+
+
+.title {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.desc {
+    margin-top: 5vh;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cv-link {
+    display: inline-block;
+    padding: 30px 30px;
+    margin: 40px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    transition: .2s;
+}
+
+.cv-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.cv-link:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.cv-link__img {
+    width: 60px;
+    margin-bottom: 10px;
+}

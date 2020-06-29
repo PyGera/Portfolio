@@ -1,3 +1,9 @@
+a, a:visited, a:hover, a:focus, a:hover, a:active { 
+    color:#3a3a3a;
+    text-decoration: none; 
+} /* Globally */
+
+
 body {
     color: #3a3a3a;
 }
