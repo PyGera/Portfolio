@@ -81,7 +81,7 @@ function App() {
                                         return a.position-b.position
                                     })
                                     d.value.forEach(e => {
-                                        socials.push(<Social link={e.link} icon={e.icon} social={e.social} />)
+                                        socials.push(<Social link={e.link} icon={e.icon} social={e.social} color={e.color} />)
                                     });
                                     flagSocial = false
                                 }
