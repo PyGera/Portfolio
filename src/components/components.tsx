@@ -4,6 +4,7 @@ import Profession from "./Profession/Profession"
 import Button from "./Button/Button"
 import Social from "./Social/Social"
 import Project from "./Project/Project"
+import Loading from "./Loading/Loading"
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Profession,
     Button,
     Social,
-    Project
+    Project,
+    Loading
 } 
