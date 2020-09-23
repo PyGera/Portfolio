@@ -15,7 +15,7 @@ export default (props:Props) => (
         </Link>
         <div className="title">Curriculum Vitae</div>
         <br />
-        <div className="desc">My CV is avaible in Italian and in English</div>
+        <div className="desc">My CV is available in both Italian and English</div>
         
         <a href={props.linkItalian}>
             <div className="cv-link">
