@@ -1,27 +1,13 @@
 import React from "react"
-import { Link } from "react-router-dom"
-import "./Button.scss"
+import "./Button.css"
 
 interface Props {
-    onClick ?: ((event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void) | undefined,
-    href: string,
-    value: string
+    className ?: string,
+    children: string,
 }
 
-export default function Button(props: Props) {
-    return (
-        <div>
-            {props.href?
-                (
-                    <Link to={props.href}>
-                        <button className="btn" onClick={props.onClick}>{props.value}</button>
-                    </Link>
-                )
-            :
-                (
-                    <button className="btn" onClick={props.onClick}>{props.value}</button>
-                )
-            }
-        </div>
-    );
-}
+const Button = (props: Props) => (
+    <button style={{outline: "none"}} className={`button ${props.className}`}>{props.children}</button>
+)
+
+export default Button

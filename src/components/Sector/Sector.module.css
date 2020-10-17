@@ -1,0 +1,47 @@
+.sector {
+    text-align: center;
+    padding: 70px 45px;
+    border: 1px solid #E6ECF8;
+    height: 95vh;
+}
+.img {
+    width: 48px;
+}
+.title {
+    margin-top: 1em;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+}
+
+.description {
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 2em;
+}
+
+.topicTitle {
+    margin-bottom: 8px;
+    color: #e41937;
+    font-weight: 600;
+    font-family: Nunito, sans-serif;
+}
+
+.topicDescription {
+    font-family: Nunito, sans-serif;
+    margin-bottom: 2em;
+
+}
+
+.toolsTitle {
+    margin-bottom: 8px;
+    color: #e41937;
+    font-weight: 600;
+    font-family: Nunito, sans-serif;
+}
+
+.toolsDescription {
+    font-family: Nunito, sans-serif;
+    margin-bottom: 2em;
+}
+

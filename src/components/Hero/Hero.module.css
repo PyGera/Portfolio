@@ -1,0 +1,24 @@
+.section {
+    padding-top: 2rem;
+    text-align: center;
+    height: 80vh;
+}
+
+.title {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.img {
+    border-radius: 3000px;
+    width: 210px;
+    margin: 2rem 0;
+}

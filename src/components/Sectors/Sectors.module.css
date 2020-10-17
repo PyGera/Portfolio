@@ -1,0 +1,12 @@
+.section {
+    width: 100%;
+    padding: 0 20vh;
+    position: relative;
+    bottom: 20vh;
+}
+
+.littleSection {
+    border: 1px solid #E6ECF8;
+    border-radius: 30px;
+    background-color: white;
+}

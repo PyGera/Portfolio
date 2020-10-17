@@ -1,0 +1,16 @@
+.button {
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #e41937;
+  border: 2px solid #e41937;
+  border-radius: 300px;
+  padding: .45rem 1.2rem;
+  background-color: #fff;
+  transition: .2s;
+}
+
+.button:hover {
+  background-color: #e41937;
+  color: #fff;
+}

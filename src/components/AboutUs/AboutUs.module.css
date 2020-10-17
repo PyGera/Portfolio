@@ -1,0 +1,21 @@
+.section {
+    background-color: #e41937;
+    color: white;
+    text-align: center;
+    padding: 9rem 1.5rem 18rem;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: "Cairo", sans-serif;
+}
+
+.description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0 60vh;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}

@@ -1,25 +1,24 @@
 import React from "react"
-import "./Project.scss"
+import style from "./Project.module.css"
+import Button from "../Button/Button";
 
 interface Props {
-    src: string,
-    title: string,
+    logo: string,
     description: string,
-    period: string,
     link: string
 }
 
-export default function Project(props: Props) {
+const Project = (props: Props) => {
     return (
-        <a href={props.link}>
-            <div className="projectCard">
-                <div className="image-box">
-                    <img src={props.src} alt="project-img" className="projectImg" />
+        <div className={style.parent}>
+            <div className={style.card} style={{backgroundImage: `url(${props.logo})`}}>
+                <div className={style.things}>
+                    <div className={style.description}>{props.description}</div>
+                    <a href={props.link}><Button className={style.button}>Visit Website ></Button></a>
                 </div>
-                <div className="projectTitle">{props.title}</div>
-                <div className="projectDescription">{props.description}</div>
-                <div className="projectPeriod">{props.period}</div>
             </div>
-        </a>
-    );
+        </div>
+    )
 }
+
+export default Project
