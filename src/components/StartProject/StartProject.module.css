@@ -1,0 +1,31 @@
+.section {
+    margin-top: 20vh;
+    background: rgb(95, 14, 25);
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.title {
+    color: white;
+    font-family: "Cairo", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 3rem 5rem;
+}
+
+.description {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    padding-top: 3rem;
+}
+
+.buttonContainer {
+    padding-top: 3rem;
+}
+
+.button {
+    color: white;
+    background: none;
+    padding: .7rem 2rem;
+}

@@ -1,0 +1,31 @@
+.section {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.title {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.3rem;
+}
+
+.description {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: .7rem;
+}
+
+.disabled {
+    background: #606060;
+    border: 2px solid #606060;
+    color: white;
+}
+
+.disabled:hover {
+    background: #606060;
+}
+
+.button {
+    margin: 1.3rem;
+}
